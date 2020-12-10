@@ -1,0 +1,70 @@
+.login{
+    min-width: 100vw;
+    /* padding: 100px 20px; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(65deg, #c90beb, rgb(241, 102, 9)) ;
+}
+.login form > .MuiFormControl-root {
+    margin: 5px 0px;
+}
+
+.MuiOutlinedInput-input {
+    padding: 15.5px 14px !important;
+}
+.login_btn{
+    color: orangered;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login_btn:hover{
+    color: orangered;
+    text-decoration: underline;
+
+}
+ form h1 {
+     text-align: center;
+     background-color: rebeccapurple;
+     margin: 0px -3rem;
+     margin-bottom: 30px;
+     padding-bottom: 10px;
+     color: white;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }
+form{
+    background-color: white;
+    padding: 0px 3rem 2rem 3rem;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.login .social {
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 30px;
+    border: 1px solid lightgray;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rebeccapurple;
+    color: white;
+}
+.social:hover {
+    color: black;
+    background-color: white;
+}
+.social:active {
+    box-shadow: 0px 5px 5px #f50057;
+}
+.error{
+    color: red !important;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+}
